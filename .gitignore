@@ -1,0 +1,85 @@
+# Sensitive files and credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.der
+*.crt
+*.cer
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+id_rsa*
+id_dsa*
+secrets.yaml
+secrets.json
+credentials.json
+config/secrets.*
+
+# API Keys and tokens
+.secrets
+.credentials
+*.token
+.netrc
+
+# Cloud provider configs
+.aws/credentials
+.azure/credentials
+gcp-key.json
+google-credentials.json
+
+# Database dumps and backups
+*.sql
+*.dump
+*.backup
+
+# IDE and editor files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+__pycache__/
+*.pyc
+.Python
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+target/
+bin/
+obj/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.coverage
+*.cover
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak

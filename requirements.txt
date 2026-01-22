@@ -1,0 +1,41 @@
+# Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Security scanning tools
+bandit>=1.7.5
+safety>=2.3.0
+pip-audit>=2.6.0
+
+# Code quality
+pylint>=3.0.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# Password hashing (recommended for production)
+bcrypt>=4.0.0
+argon2-cffi>=23.0.0
+
+# Web security (if building web apps)
+# django>=4.2  # Uncomment if using Django
+# flask>=2.3.0  # Uncomment if using Flask
+# python-dotenv>=1.0.0  # For environment variables
+
+# Database (examples - uncomment as needed)
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=4.5.0  # MongoDB
+# sqlalchemy>=2.0.0  # ORM
+
+# API security
+# pyjwt>=2.8.0  # JWT tokens
+# cryptography>=41.0.0  # Encryption utilities
+# requests>=2.31.0  # HTTP library with security updates
+
+# Development tools
+pre-commit>=3.4.0
+detect-secrets>=1.4.0
